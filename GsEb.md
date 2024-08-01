@@ -1,0 +1,7 @@
+_Future Work_
+
+Our findings open several promising avenues for further research. Firstly, investigating the underlying mechanisms that give rise to $K_{II}$ could provide deeper insights into how language models store and retrieve knowledge. Secondly, exploring how to leverage the QL assumption and the properties of $K_{II}$ could lead to more effective model editing methods. Additionally, examining the relationship between our QL assumption and other theoretical frameworks, such as concepts as directions in the latent space of hidden activations, may yield a more unified understanding of knowledge representation in language models. This could involve analyzing the geometric properties of query representations in latent space and their correlation with observed localization phenomena. Such investigations may not only enhance our comprehension of language model behavior but also inspire novel approaches to model interpretation and modification.
+
+_Replace Lines 110-111_
+
+Furthermore, to ensure our findings are not method-specific, we employ three advanced knowledge localization methods for comparison [5,8,11]. While Enguehard's approach [11] was not originally designed for knowledge localization, it can be readily adapted for this task with minor modifications. Specifically, these three methods take a query and answer as input and outputs the locations of knowledge neurons. Detailed explanations of all three methods are provided in Appendix A.4.
